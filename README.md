@@ -6,7 +6,7 @@
 
 **Independent texture and color control for reference-guided 3D stylization**
 
-[🎬 Video](#video) · [🖼️ Teaser](#teaser) · [📝 Abstract](#abstract) · [💻 Usage](#usage) · [📚 Citation](#citation) · [✉️ Contact](#contact)
+[📄 arXiv](https://arxiv.org/pdf/2610.02044) · [🎬 Video](#video) · [🖼️ Teaser](#teaser) · [📝 Abstract](#abstract) · [💻 Usage](#usage) · [📚 Citation](#citation) · [✉️ Contact](#contact)
 
 </div>
 
