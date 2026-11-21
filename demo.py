@@ -9,12 +9,8 @@ from dide.utils import render_utils, postprocessing_utils
 import cv2
 import numpy as np
 import torch
+from processing import turn_gray, palette_voronoi
 # cache path
-os.environ["XDG_CACHE_HOME"] = ""
-os.environ["HF_HOME"] = ""
-os.environ["TORCH_HOME"] = ""
-# torch hub
-torch.hub.set_dir("")
 
 parser = argparse.ArgumentParser()
 
@@ -36,8 +32,12 @@ def load_images(path):
         raise ValueError(f"Invalid image path: {path}")
 
 image_content = load_images(args.cnt)
-image_texture = load_images(args.sty)
-image_color = load_images(args.color)
+
+
+image_texture = [turn_gray(load_images(args.sty))]
+
+# NOTE: n_colors = the number of main colors extracted from the color image
+image_color = [palette_voronoi(args.color, n_colors=3, k=5, width=518, height=518)]
 
 
 content_name = os.path.splitext(os.path.basename(args.cnt))[0]
@@ -72,12 +72,9 @@ outputs = pipeline.run_multi_image(
     },
 )
 
-
-print(f"Total time: {end - start:.4f} seconds")
-
 video = render_utils.render_video(outputs['gaussian'][0])['color']
 
-path = ""
+path = "./output"
 
 if not os.path.exists(f"{path}"):
     os.makedirs(f"{path}")
