@@ -46,12 +46,20 @@ cd DiDE
 
 > 🚧 Code and detailed usage instructions coming soon.
 
+
 <a id="citation"></a>
 ## 📚 Citation
 
 If you find this work useful, please consider citing our paper.
 
-*BibTeX coming soon.*
+```bibtex
+@article{wu2026dide,
+  title={DiDE: Direct Injection with Color-Texture DEcoupling for 3D Stylization},
+  author={Wu, Tao and Gomez-Villa, Alexandra and Li, Senmao and Wang, Yaxing and van de Weijer, Joost and Wang, Kai},
+  journal={arXiv preprint arXiv:2610.02044},
+  year={2026}
+}
+```
 
 <a id="contact"></a>
 ## ✉️ Contact
