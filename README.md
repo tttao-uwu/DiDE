@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # DiDE: Direct Injection with Color-Texture DEcoupling for 3D Stylization
@@ -15,31 +16,38 @@
 <a id="video"></a>
 ## 🎬 Video
 
-<p align="center">
-  <em>Demo video coming soon.</em>
-</p>
+<table>
+  <tr>
+    <td width="25%">
+      <video src="asset/instances/demo1.mp4" controls width="100%"></video>
+    </td>
+    <td width="25%">
+      <video src="asset/instances/demo2.mp4" controls width="100%"></video>
+    </td>
+    <td width="25%">
+      <video src="asset/instances/demo3.mp4" controls width="100%"></video>
+    </td>
+    <td width="25%">
+      <video src="asset/instances/demo4.mp4" controls width="100%"></video>
+    </td>
+  </tr>
+</table>
 
-<!-- Paste the GitHub-uploaded video URL here. -->
+<p align="center">
+  Reference-guided 3D stylization with independent texture and color control.
+</p>
 
 <a id="teaser"></a>
 ## 🖼️ Teaser
 
 <p align="center">
-  <em>Teaser image coming soon.</em>
+  <img src="asset/figs/teaser.png" alt="DiDE Teaser" width="100%">
 </p>
-
-<!-- Replace this comment with the actual teaser image:
-<p align="center">
-  <img src="ACTUAL_TEASER_PATH" alt="DiDE teaser" width="100%">
-</p>
--->
 
 <a id="abstract"></a>
 ## 📝 Abstract
 
 Recent advances in image-to-3D generative models have enabled high-quality 3D asset generation and reference-guided stylization. However, existing approaches typically transfer texture and color jointly, limiting independent control over these attributes. We introduce **Disentangled 3D Stylization (Disen3D)**, a task that uses separate content, texture, and color references, and propose **DiDE**, a training-free framework built on TRELLIS. DiDE constructs a color-neutral texture carrier and uses dedicated appearance branches with channel partitioning to compose texture and color signals while preserving content geometry. The resulting source, texture-only, color-only, and joint endpoints support continuous control over both attributes. Experiments demonstrate effective disentangled appearance transfer and favorable human preference compared with existing 3D stylization methods.
-
-<!-- Replace this draft with the exact final paper abstract. -->
 
 <a id="usage"></a>
 ## 💻 Usage
@@ -69,9 +77,7 @@ If you find this work useful, please consider citing our paper.
 
 *BibTeX coming soon.*
 
-<!-- Insert the confirmed NeurIPS 2026 BibTeX entry here. -->
-
 <a id="contact"></a>
 ## ✉️ Contact
 
-For questions or research discussions, please contact **Tao Wu** at **[email to be added]**.
+For questions or research discussions, please contact **[taowu@cvc.uab.es](mailto:taowu@cvc.uab.es)**.
