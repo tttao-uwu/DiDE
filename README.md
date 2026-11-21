@@ -7,35 +7,11 @@
 
 **Independent texture and color control for reference-guided 3D stylization**
 
-[📄 arXiv](https://arxiv.org/pdf/2610.02044) · [🎬 Video](#video) · [🖼️ Teaser](#teaser) · [📝 Abstract](#abstract) · [💻 Usage](#usage) · [📚 Citation](#citation) · [✉️ Contact](#contact)
+[📄 arXiv](https://arxiv.org/pdf/2610.02044) · [🖼️ Teaser](#teaser) · [📝 Abstract](#abstract) · [💻 Usage](#usage) · [📚 Citation](#citation) · [✉️ Contact](#contact)
 
 </div>
 
 ---
-
-<a id="video"></a>
-## 🎬 Video
-
-<table>
-  <tr>
-    <td width="25%">
-      <video src="asset/instances/demo1.mp4" controls width="100%"></video>
-    </td>
-    <td width="25%">
-      <video src="asset/instances/demo2.mp4" controls width="100%"></video>
-    </td>
-    <td width="25%">
-      <video src="asset/instances/demo3.mp4" controls width="100%"></video>
-    </td>
-    <td width="25%">
-      <video src="asset/instances/demo4.mp4" controls width="100%"></video>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  Reference-guided 3D stylization with independent texture and color control.
-</p>
 
 <a id="teaser"></a>
 ## 🖼️ Teaser
